@@ -1,0 +1,38 @@
+{
+  "id": "aplopean-dice",
+  "title": "Aplopean Dice",
+  "description": "<p>Custom Dice Textures for Dice so Nice</p>",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aelanea",
+      "url": "https://github.com/Aelanea",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "scripts/aplopean-dice.js"
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "version": "1.0.0",
+  "url": "https://github.com/Aelanea/aplopean-dices",
+  "readme": "https://github.com/Aelanea/aplopean-dices/blob/main/README.md",
+  "manifest": "https://raw.githubusercontent.com/Aelanea/aplopean-dices/main/module.json",
+  "download": "https://github.com/Aelanea/aplopean-dices/releases/download/1.0.0/module.zip",
+  "changelog": "https://github.com/Aelanea/aplopean-dices/blob/main/CHANGELOG.md",
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
